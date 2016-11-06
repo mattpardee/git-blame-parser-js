@@ -1,15 +1,15 @@
-#Git Blame parser in JavaScript
+# Git Blame parser
 
 This module parses the output from a "git blame -p" (for porcelain, i.e. machine-digestible) operation.
 
-#Usage
+# Usage
 
 ```javascript
-var BlameJS = require("blamejs");
+var BlameJS = require('blamejs');
 var blamejs = new BlameJS();
 
 // Get the result of the git blame operation
-var blameOut = "[output]";
+var blameOut = '[output]';
 
 blamejs.parseBlame(blameOut);
 
@@ -33,3 +33,4 @@ var firstLine = commitData[lineData[0].hash];
 // - summary
 // - previousHash
 // - filename
+```

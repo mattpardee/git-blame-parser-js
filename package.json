@@ -1,0 +1,25 @@
+{
+  "name": "git-blame-parser-js",
+  "version": "1.0.0",
+  "description": "Parses git blame (porcelain) output",
+  "main": "index.js",
+  "directories": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/mattpardee/git-blame-parser-js.git"
+  },
+  "keywords": [
+    "git",
+    "blame",
+    "parser",
+    "porcelain"
+  ],
+  "author": "Matt Pardee <matt.pardee@gmail.com>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/mattpardee/git-blame-parser-js/issues"
+  },
+  "homepage": "https://github.com/mattpardee/git-blame-parser-js#readme"
+}
