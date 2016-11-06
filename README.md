@@ -6,12 +6,12 @@ This module parses the output from a "git blame -p" (for porcelain, i.e. machine
 
 ```javascript
 var BlameJS = require('blamejs');
-var blamejs = new BlameJS();
 
 // Get the result of the git blame operation
 var blameOut = '[output]';
 
-blamejs.parseBlame(blameOut);
+// Parse the output
+var blamejs = new BlameJS(blameOut);
 
 // Get the commit data
 var commitData = blamejs.getCommitData();
